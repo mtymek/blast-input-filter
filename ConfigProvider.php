@@ -2,7 +2,7 @@
 
 namespace Blast\InputFilter;
 
-use BlastInput\InputFilterManagerFactory;
+use Blast\InputFilter\InputFilterManagerFactory;
 use Zend\InputFilter\InputFilterPluginManager;
 
 class ConfigProvider
