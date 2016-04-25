@@ -13,5 +13,10 @@
             "name": "Mateusz Tymek",
             "email": "mtymek@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Blast\\InputFilter\\": "src"
+        }
+    }
 }
