@@ -2,8 +2,10 @@
 
 namespace Blast\InputFilter;
 
-use Blast\InputFilter\InputFilterManagerFactory;
+use Zend\Filter\FilterPluginManager;
+use Zend\InputFilter\Factory;
 use Zend\InputFilter\InputFilterPluginManager;
+use Zend\Validator\ValidatorPluginManager;
 
 class ConfigProvider
 {
@@ -19,7 +21,11 @@ class ConfigProvider
         return [
             'factories' => [
                 InputFilterPluginManager::class => InputFilterManagerFactory::class,
+                FilterPluginManager::class => FilterPluginManagerFactory::class,
+                ValidatorPluginManager::class => ValidatorPluginManagerFactory::class,
+                Factory::class => InputFilterFactoryFactory::class,
             ],
         ];
     }
+
 }

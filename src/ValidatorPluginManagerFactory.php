@@ -1,6 +1,6 @@
 <?php
 
-namespace BlastInput;
+namespace Blast\InputFilter;
 
 use Interop\Container\ContainerInterface;
 use Zend\Validator\ValidatorPluginManager;
