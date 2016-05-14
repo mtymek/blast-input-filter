@@ -12,7 +12,7 @@ class ConfigProvider
     public function __invoke()
     {
         return [
-            'dependencies' => $this->getServiceConfig(), 
+            'dependencies' => $this->getServiceConfig(),
         ];
     }
 
@@ -20,12 +20,11 @@ class ConfigProvider
     {
         return [
             'factories' => [
-                InputFilterPluginManager::class => InputFilterManagerFactory::class,
+                InputFilterPluginManager::class => InputFilterPluginManagerFactory::class,
                 FilterPluginManager::class => FilterPluginManagerFactory::class,
                 ValidatorPluginManager::class => ValidatorPluginManagerFactory::class,
                 Factory::class => InputFilterFactoryFactory::class,
             ],
         ];
     }
-
 }

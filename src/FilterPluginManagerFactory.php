@@ -10,7 +10,7 @@ class FilterPluginManagerFactory
     public function __invoke(ContainerInterface $container)
     {
         $config = $container->get('config');
-        $config = ($config && is_array($config['filters']))
+        $config = ($config && isset($config['filters']) && is_array($config['filters']))
             ? $config['filters']
             : [];
         return new FilterPluginManager($container, $config);

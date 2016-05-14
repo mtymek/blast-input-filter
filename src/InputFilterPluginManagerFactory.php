@@ -5,7 +5,7 @@ namespace Blast\InputFilter;
 use Interop\Container\ContainerInterface;
 use Zend\InputFilter\InputFilterPluginManager;
 
-class InputFilterManagerFactory
+class InputFilterPluginManagerFactory
 {
     public function __invoke(ContainerInterface $container)
     {
