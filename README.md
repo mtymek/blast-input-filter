@@ -1,6 +1,8 @@
 Blast\InputFilter
 =================
 
+[![Build Status](https://travis-ci.org/mtymek/blast-input-filter.svg?branch=master)](https://travis-ci.org/mtymek/blast-input-filter)
+
 **Configuration-based setup of `zend-validator`, `zend-filter` and `zend-inputfilter` for
 Zend Expressive applications.**
 
