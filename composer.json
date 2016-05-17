@@ -27,6 +27,11 @@
             "Blast\\Test\\InputFilter\\": "test"
         }
     },
+    "extra": {
+        "zf": {
+            "config-provider": "Blast\\InputFilter\\ConfigProvider"
+        }
+    },
     "scripts": {
         "check": [
             "@cs",
