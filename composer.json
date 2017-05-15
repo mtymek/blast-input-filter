@@ -1,6 +1,13 @@
 {
     "name": "mtymek/blast-input-filter",
     "description": "Configuration-based setup of zend-validator, zend-filter and zend-inputfilter for Expressive applications.",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Mateusz Tymek",
+            "email": "mtymek@gmail.com"
+        }
+    ],
     "require": {
         "zendframework/zend-inputfilter": "^2.7"
     },
@@ -10,13 +17,6 @@
         "squizlabs/php_codesniffer": "^2.3",
         "zendframework/zend-servicemanager": "^2.7 | ^3.0"
     },
-    "license": "2-Clause BSD",
-    "authors": [
-        {
-            "name": "Mateusz Tymek",
-            "email": "mtymek@gmail.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Blast\\InputFilter\\": "src"

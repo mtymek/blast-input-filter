@@ -1,4 +1,9 @@
 <?php
+/**
+ * @link      https://github.com/mtymek/blast-input-filter
+ * @copyright Copyright (c) 2016-2017 Mateusz Tymek
+ * @license   BSD 2-Clause
+ */
 
 namespace Blast\Test\InputFilter;
 
